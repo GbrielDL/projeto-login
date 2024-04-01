@@ -7,3 +7,50 @@
     --verde: #49a09d;
     --lilas: #5f2c82;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: var(--lilas);
+}
+
+main {
+    position: relative;
+}
+
+main section#tela_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #00000065;
+}
+
+main article#imagem {
+    display: block;
+    background: var(--lilas) url(../imagens/pexels-pixabay.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+main article#formulario {
+    display: block;
+    padding: 10px;
+}
