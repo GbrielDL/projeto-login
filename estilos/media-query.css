@@ -25,6 +25,10 @@
 
 /*Desktop (min-992)*/
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     main section#tela_login {
         width: 950px;
     }
