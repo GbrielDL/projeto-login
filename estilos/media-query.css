@@ -1,7 +1,41 @@
 @charset "UTF-8";
 
-/*Tablet*/
+/*Tablet (min-768)*/
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
 
-/*Desktop*/
+    main section#tela_login {
+        width: 90vw;
+    }
+
+    main article#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: top center;
+    }
+
+    main article#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+/*Desktop (min-992)*/
+@media screen and (min-width: 992px) {
+    main section#tela_login {
+        width: 950px;
+    }
+
+    main article#imagem {
+        width: 50%;
+    }
+
+    main article#formulario {
+        width: 50%;
+    }
+}
 
 /*Telas Grandes*/
