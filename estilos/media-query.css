@@ -21,6 +21,12 @@
         float: right;
         width: 70%;
     }
+
+    main form>img {
+        display: block;
+        width: 40%;
+        margin: auto;
+    }
 }
 
 /*Desktop (min-992)*/
@@ -46,10 +52,18 @@
     main article#formulario>h1 {
         font-size: 2em;
     }
-    
+
     main article#formulario>p {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+
+    main form>input[type=submit],
+    button {
+        display: inline-block;
+        width: 49.5%;
+    }
+
+    main form>img {
+        margin-top: 20px;
     }
 }
-
-/*Telas Grandes*/
