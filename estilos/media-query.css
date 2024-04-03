@@ -35,10 +35,20 @@
 
     main article#imagem {
         width: 50%;
+        float: right;
     }
 
     main article#formulario {
+        float: left;
         width: 50%;
+    }
+
+    main article#formulario>h1 {
+        font-size: 2em;
+    }
+    
+    main article#formulario>p {
+        font-size: 1.2em;
     }
 }
 

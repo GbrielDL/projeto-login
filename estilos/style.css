@@ -56,3 +56,12 @@ main article#formulario {
     display: block;
     padding: 10px;
 }
+
+main article#formulario>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main article#formulario>p {
+    font-size: 0.8em;
+}
